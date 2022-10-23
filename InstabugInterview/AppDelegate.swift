@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-     //   InstabugNetworkDataManager.shared.deleteAllRecords(entity: RequestModel.self)
+        InstabugNetworkDataManager.shared.deleteAllRecords(entity: RequestModel.self)
         return true
     }
 
